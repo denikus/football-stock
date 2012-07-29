@@ -5,7 +5,7 @@
     .controls
       = f.text_field :name, :class => "span3", :placeholder =>"футбольный мяч"
   .control-group
-    =f.label :name, "Состояние", :class => "control-label mandatory"
+    =f.label :status, "Состояние", :class => "control-label mandatory"
     .controls
       - options = []
       - Product::STATUSES.each{|key, value| options << [value, key]}
@@ -21,15 +21,15 @@
     .controls
       = f.text_area :description, :class => "span3", :rows =>"4"
   .control-group
-    =f.label :name, "Контактный телефон", :class => "control-label"
+    =f.label :phone, "Контактный телефон", :class => "control-label"
     .controls
-      = f.text_field :name, :class => "span3"
+      = f.text_field :phone, :class => "span3"
   .control-group
     %span= "Или"
   .control-group
-    =f.label :name, "Контактный email", :class => "control-label"
+    =f.label :email, "Контактный email", :class => "control-label"
     .controls
-      = f.text_field :name, :class => "span3"
+      = f.text_field :email, :class => "span3"
 
   .form-actions
     = f.submit "Создать", :name => "create", :class =>"btn btn-success"

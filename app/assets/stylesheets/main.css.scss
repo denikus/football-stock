@@ -154,6 +154,16 @@ label.mandatory {
   text-align: center;
   font-size: 4em;
   margin: 0; }
+.price {
+  color: #EE611C;
+  font-family: Arial;
+  font-size: 1.5em;
+  padding: 1em 0 0;
+}
+
+.big_price {
+  font-size: 2em;
+}
 
 .items {
   overflow: hidden;
@@ -182,11 +192,8 @@ label.mandatory {
       padding: 2.5em 0 0; }
     .price {
       float: right;
-      color: #EE611C;
-      font-family: Arial;
-      font-size: 1.5em;
       width: 120px;
-      padding: 1em 0 0; }
+    }
     .meta {
       padding-top: .8em;
       width: 120px;
