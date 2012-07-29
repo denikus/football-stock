@@ -1,0 +1,258 @@
+// Place all the styles related to the Main controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+html {
+  background: #dfe0e2 url(image-path("background.jpg")); }
+
+body {
+  background: transparent;
+  font: 16px / 1.5 "PT Sans", Arial, sans-serif;
+  color: #333; }
+
+#header, #content, #footer {
+  margin: 0 auto;
+  width: 920px;
+}
+
+#header {
+  height: 2em;
+  margin-top: 2em;
+  #logo {
+    //background: url(image-path("/logotype.png")) 50% 50% no-repeat;
+    width: 300px;
+    //text-indent: -10000px;
+    //overflow: hidden;
+    margin-top: -5px;
+    float: left;
+    a {
+      display: block;
+      font-size: 32px;
+      color: #000;
+    }
+  }
+  #menu {
+    float: right;
+    line-height: 2em;
+    a {
+      color: #000;
+    }
+
+  }
+}
+
+#header #logo, #header #logo a {
+  min-height: 30px;
+  height: 2em;
+}
+
+h1 {
+  margin-bottom: 5px;
+}
+
+a {
+  color: #ee611c;
+  text-decoration: none; }
+
+#columns {
+  overflow: hidden;
+  position: relative;
+  margin: -1em;
+  #left {
+    float: left;
+    width: 100%;
+    margin-right: -260px;
+    position: relative;
+    .left_inner {
+      margin-right: 260px;
+      padding: 1em; } }
+  #right {
+    float: right;
+    width: 260px;
+    position: relative;
+    .right_inner {
+      padding: 1em 2em;
+      padding-right: 1em; } }
+  .shadow {
+    position: absolute;
+    width: 0;
+    top: 6em;
+    bottom: 6em;
+    right: 260px;
+    -moz-box-shadow: 0 0 30px 10px #eee;
+    -webkit-box-shadow: 0 0 30px 10px #eee;
+    -o-box-shadow: 0 0 30px 10px #eee;
+    box-shadow: 0 0 30px 10px #eee;
+    &:after {
+      content: '';
+      display: block;
+      background: #fff;
+      position: absolute;
+      height: 150%;
+      width: 100px;
+      top: -25%;
+      left: -100px; } } }
+
+html.noboxshadow .shadow {
+  border-right: 1px solid #eee;
+  &:after {
+    display: none; } }
+
+#content {
+  background: #fff;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -o-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -khtml-border-radius: 3px;
+  border-radius: 3px;
+  -moz-box-shadow: 0 0 10px #aaa;
+  -webkit-box-shadow: 0 0 10px #aaa;
+  -o-box-shadow: 0 0 10px #aaa;
+  box-shadow: 0 0 10px #aaa;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+  .content_inner {
+    padding: 2em 2em 3em; }
+  h2, h3 {
+    font-weight: bold; }
+  h2 {
+    font-size: 1.625em;
+    line-height: 1em;
+    padding: 0;
+    margin: 0 0 1em;
+    &.tabs a {
+      border-bottom: 3px solid;
+      &.current {
+        color: #000;
+        border: 0; } } }
+  h3 {
+    font-size: .875em;
+    padding: 0;
+    margin: 0 0 1.5em; } }
+
+.text {
+  strong, b {
+    font-weight: bold; }
+  em, i {
+    font-style: italic; }
+  p {
+    margin-bottom: 1em; }
+  ul {
+    list-style: disc;
+    padding-left: 1.5em; }
+}
+
+label {
+  font-size: 16px;
+}
+
+label.mandatory {
+  font-weight: bold;
+}
+
+#content h2 {
+  text-align: center;
+  font-size: 4em;
+  margin: 0; }
+
+.items {
+  overflow: hidden;
+  .item {
+    border-top: 1px solid #e2e2e2;
+    display: block;
+    overflow: hidden;
+    clear: left;
+    min-height: 4.5em;
+    color: #4c4c4c;
+    .job_icon {
+      float: left;
+      height: 6em;
+      line-height: 4.5em;
+      padding: 0 10px;
+      img {
+        vertical-align: middle;
+        max-width: 100px;
+        max-height: 100px; } }
+    .location {
+      float: right;
+      color: #aeadaa;
+      font-family: Arial;
+      font-size: .6875em;
+      width: 70px;
+      padding: 2.5em 0 0; }
+    .price {
+      float: right;
+      color: #EE611C;
+      font-family: Arial;
+      font-size: 1.5em;
+      width: 120px;
+      padding: 1em 0 0; }
+    .meta {
+      padding-top: .8em;
+      width: 120px;
+      float: right;
+      .city {
+        background: transparent url(image-path('icons/marker.png')) no-repeat left center;
+        padding-left: 14px;
+      }
+      .published {
+        margin-top: .3em;
+        color: #a1a09c;
+        font-family: Arial;
+        font-size: .625em; } }
+    .position {
+      margin: 0 240px 0 150px;
+      font-weight: bold;
+      padding: 1em 0 0;
+      .title, .company {
+        width: 100%;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis; }
+      .title {
+        font-size: .875em;
+        margin-bottom: .2em; }
+      .company {
+        font-size: .6875em; } } }
+  a.item {
+    -moz-transition: background .2s linear;
+    -webkit-transition: background .2s linear;
+    -o-transition: background .2s linear;
+    transition: background .2s linear;
+    &:hover {
+      background: #f7f7ea;
+      text-decoration: none;
+    } }
+  .page {
+    border-top: 1px solid #e2e2e2; }
+  .load_more {
+    display: block;
+    text-align: center;
+    line-height: 3em;
+    height: 3em;
+    white-space: nowrap;
+    cursor: pointer;
+    color: #ee611c;
+    font-size: 1.1em;
+    text-decoration: none;
+    font-weight: bold;
+    -moz-transition: background .2s linear;
+    -webkit-transition: background .2s linear;
+    -o-transition: background .2s linear;
+    transition: background .2s linear;
+    span {
+      border-bottom: 1px dotted; }
+    &:hover {
+      background-color: #f7f7ea;
+      span {
+        border-bottom: 1px solid; } } }
+  .load_more_loading {
+    -moz-transition: none;
+    -webkit-transition: none;
+    -o-transition: none;
+    transition: none;
+    background: url(/images/loading.gif?1342159675) 50% 50% no-repeat;
+    span {
+      display: none; }
+    &:hover {
+      background-color: #fff; } } }

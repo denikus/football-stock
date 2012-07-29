@@ -1,0 +1,35 @@
+%h1 Новый лот
+= form_for @product, :html =>{:class =>"form-horizontal"} do |f|
+  .control-group
+    =f.label :name, "Название", :class => "control-label mandatory"
+    .controls
+      = f.text_field :name, :class => "span3", :placeholder =>"футбольный мяч"
+  .control-group
+    =f.label :name, "Состояние", :class => "control-label mandatory"
+    .controls
+      - options = []
+      - Product::STATUSES.each{|key, value| options << [value, key]}
+      = f.select :status, options, {}, {:class =>"span3"}
+  .control-group
+    =f.label :price, "Цена", :class => "control-label mandatory"
+    .controls
+      .input-append
+        = f.text_field :price, :class => "input-small", :placeholder =>"100"
+        %span.add-on= "грн"
+  .control-group
+    =f.label :description, "Описание", :class => "control-label mandatory"
+    .controls
+      = f.text_area :description, :class => "span3", :rows =>"4"
+  .control-group
+    =f.label :name, "Контактный телефон", :class => "control-label"
+    .controls
+      = f.text_field :name, :class => "span3"
+  .control-group
+    %span= "Или"
+  .control-group
+    =f.label :name, "Контактный email", :class => "control-label"
+    .controls
+      = f.text_field :name, :class => "span3"
+
+  .form-actions
+    = f.submit "Создать", :name => "create", :class =>"btn btn-success"

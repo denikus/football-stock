@@ -1,0 +1,64 @@
+!!! 5
+%html
+  %head
+    %meta{:charset=>'utf-8'}
+    %title= "Stock"
+    = stylesheet_link_tag  "application", :media => "all"
+    = javascript_include_tag "application"
+    = csrf_meta_tags
+  %body
+    #header
+      %h1#logo
+        %a{:href => "/"} Футбольный базар
+      #menu
+        %ul.nav.nav-pills
+          %li.dropdown
+            %a.dropdown-toggle{"data-toggle" => "dropdown", :href => "#"}
+              Войти
+              %b.caret
+            %ul.dropdown-menu
+              %li
+                %a{:href=>"#"}= "По e-mail"
+              %li.divider
+              %li
+                %a{:href=>"#"}= "Вконтакте"
+              %li
+                %a{:href=>"#"}= "Facebook"
+              %li
+                %a{:href=>"#"}= "Google"
+    #content
+      .content_inner
+        #columns
+          #left
+            .left_inner
+              = yield
+          #right
+            -#.right_inner
+            -#  .block.stuck.about
+            -#    %h4 Размещайте вакансии
+            -#    %p Мы предлагаем интересную услугу на рынке вакансий: ваше объявление увидят лучшие специалисты из индустрии информационных технологий. Все размещения премиальные, поэтому у нас только лучшие вакансии от лучших компаний.
+            -#    %button.button.buy_code{:onclick => "document.location.href='/buy_code'"}
+            -#      %span купить
+            -#  .social.block
+            -#    %h4 Мы в социальных сетях
+            -#    %a.twitter{:href => "https://twitter.com/#!/hantim_ru"} Twitter
+            -#    %a.facebook{:href => "http://www.facebook.com/pages/HANTIMRU/291424447548996"} Facebook
+            -#  .facebook.block
+            -#    %h4 Facebook
+            -#    %iframe{:allowTransparency => "true", :frameborder => "0", :scrolling => "no", :src => "//www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2Fpages%2FHANTIMRU%2F291424447548996&width=196&colorscheme=light&show_faces=true&border_color=%23fff&stream=false&header=false&height=330&appId=242988179070978", :style => "border:none; overflow:hidden; width:196px; height:330px;"}
+            -#  .vkontakte.block
+            -#    %h4 ВКонтакте
+            -#    #vk_groups
+            -#      :javascript
+            -#        //
+            -#          VK.Widgets.Group("vk_groups", {mode: 0, width: "200", height: "330"}, 36860008);
+            -#        //
+            -#  .block.stuck.webmoney
+            -#    %a{:href => "http://webmoney.ru/"}
+            -#      %img{:alt => "Webmoney", :src => "/images/webmoney.png?1342159675"}/
+    #footer
+      %a{:href => "#"} О проекте
+      %a.copy{:href => "#"}
+        %span
+          © 2012
+        %em
