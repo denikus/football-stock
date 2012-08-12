@@ -1,0 +1,21 @@
+development:
+  adapter: mysql2
+  encoding: utf8
+  database: stock
+  username: root
+  password: root
+  host:     localhost
+production:
+  adapter: mysql2
+  encoding: utf8
+  database: stock
+  username: root
+  password: root
+  host:     localhost
+test:
+  adapter: mysql2
+  encoding: utf8
+  database: stock_test
+  username: root
+  password: root
+  host:     localhost
