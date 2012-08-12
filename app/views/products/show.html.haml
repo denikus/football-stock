@@ -1,0 +1,18 @@
+%h1= @product.name
+%span.badge= @product.status
+%div{:style =>"clear: both;margin-bottom: 5px;"}
+
+-#TODO Replace with photo
+%div{:style => "width: 200px; height: 200px; background-color: grey; float: left;margin: 0 10px 5px 0;"}
+
+%span.price.big_price= "#{@product.price} грн"
+
+%p
+  = @product.description
+%div.conacts
+  %p
+    = "Контакты"
+
+%div{:style =>"clear: both;margin-bottom: 5px;"}
+
+
