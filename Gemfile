@@ -15,6 +15,7 @@ gem 'rails', '3.2.6'
 group :assets do
   gem 'sass-rails',   '~> 3.2.3'
   gem 'coffee-rails', '~> 3.2.1'
+  gem 'font-awesome-sass-rails'
 
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
   # gem 'therubyracer', :platforms => :ruby
@@ -24,6 +25,10 @@ end
 gem 'jquery-rails'
 gem 'mysql2', '~> 0.3.0'
 gem 'haml-rails'
+gem 'bootstrap-sass', '~> 2.0.4.0'
+gem 'simple_form'
+gem 'mini_magick'
+gem 'paperclip'
 
 group :test do
   gem 'simplecov', :require => false
@@ -40,7 +45,7 @@ group :development, :test do
   gem 'spork', '~> 1.0rc'
   gem 'guard-spork'
   gem 'guard-rspec'
-  # don't remove
+  # don't removebundle update
   gem 'database_cleaner'
   gem 'launchy'
 end

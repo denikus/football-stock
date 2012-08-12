@@ -1,35 +1,18 @@
 %h1 Новый лот
-= form_for @product, :html =>{:class =>"form-horizontal"} do |f|
+= simple_form_for @product, :html =>{:class =>"form-horizontal"} do |f|
+  = f.input :name, :input_html => {:class => "span3"}, :placeholder =>"футбольный мяч", :label => "Название"
+  - options = []
+  - Product::STATUSES.each{|key, value| options << [value, key]}
+  = f.input :status, :label => "Состояние", :input_html => {:class => "input-small"}, :include_blank => false, :collection => options
+  = f.input :price, :wrapper => :append, :label => "Цена" do
+    = f.input_field :name, :class => "input-small", :placeholder =>"100"
+    = content_tag :span, "грн", :class => "add-on"
+  -#%span.add-on= "грн"
+  = f.input :description, :input_html => {:class => "span3", :rows =>"4"}, :label => "Описание"
+  = f.input :phone, :input_html => {:class => "span3"}, :label => "Телефон"
   .control-group
-    =f.label :name, "Название", :class => "control-label mandatory"
-    .controls
-      = f.text_field :name, :class => "span3", :placeholder =>"футбольный мяч"
-  .control-group
-    =f.label :status, "Состояние", :class => "control-label mandatory"
-    .controls
-      - options = []
-      - Product::STATUSES.each{|key, value| options << [value, key]}
-      = f.select :status, options, {}, {:class =>"span3"}
-  .control-group
-    =f.label :price, "Цена", :class => "control-label mandatory"
-    .controls
-      .input-append
-        = f.text_field :price, :class => "input-small", :placeholder =>"100"
-        %span.add-on= "грн"
-  .control-group
-    =f.label :description, "Описание", :class => "control-label mandatory"
-    .controls
-      = f.text_area :description, :class => "span3", :rows =>"4"
-  .control-group
-    =f.label :phone, "Контактный телефон", :class => "control-label"
-    .controls
-      = f.text_field :phone, :class => "span3"
-  .control-group
-    %span= "Или"
-  .control-group
-    =f.label :email, "Контактный email", :class => "control-label"
-    .controls
-      = f.text_field :email, :class => "span3"
-
+    %span
+      = "Или"
+  = f.input :email, :input_html => {:class => "span3"}, :label => "E-mail"
   .form-actions
     = f.submit "Создать", :name => "create", :class =>"btn btn-success"

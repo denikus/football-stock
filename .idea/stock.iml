@@ -24,10 +24,11 @@
     <orderEntry type="library" scope="PROVIDED" name="activesupport (v3.2.6, RVM: ruby-1.9.3-p125 [rails3.2]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="addressable (v2.2.8, RVM: ruby-1.9.3-p125 [rails3.2]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="awesome_print (v1.0.2, RVM: ruby-1.9.3-p125 [rails3.2]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="bootstrap-sass (v2.0.4.0, RVM: ruby-1.9.3-p125 [rails3.2]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="builder (v3.0.0, RVM: ruby-1.9.3-p125 [rails3.2]) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="bundler (v1.1.rc.7, RVM: ruby-1.9.3-p125 [rails3.2]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="bundler (v1.1.0, RVM: ruby-1.9.3-p125 [rails3.2]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="capybara (v1.1.2, RVM: ruby-1.9.3-p125 [rails3.2]) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="childprocess (v0.3.2, RVM: ruby-1.9.3-p125 [rails3.2]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="childprocess (v0.3.5, RVM: ruby-1.9.3-p125 [rails3.2]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="coffee-rails (v3.2.2, RVM: ruby-1.9.3-p125 [rails3.2]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="coffee-script (v2.2.0, RVM: ruby-1.9.3-p125 [rails3.2]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="coffee-script-source (v1.3.3, RVM: ruby-1.9.3-p125 [rails3.2]) [gem]" level="application" />
@@ -42,8 +43,8 @@
     <orderEntry type="library" scope="PROVIDED" name="execjs (v1.4.0, RVM: ruby-1.9.3-p125 [rails3.2]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="factory_girl (v3.5.0, RVM: ruby-1.9.3-p125 [rails3.2]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="factory_girl_rails (v3.5.0, RVM: ruby-1.9.3-p125 [rails3.2]) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="faye-websocket (v0.4.5, RVM: ruby-1.9.3-p125 [rails3.2]) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="ffi (v1.0.11, RVM: ruby-1.9.3-p125 [rails3.2]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="faye-websocket (v0.4.6, RVM: ruby-1.9.3-p125 [rails3.2]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="ffi (v1.1.5, RVM: ruby-1.9.3-p125 [rails3.2]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="guard (v1.2.1, RVM: ruby-1.9.3-p125 [rails3.2]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="guard-rspec (v1.1.0, RVM: ruby-1.9.3-p125 [rails3.2]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="guard-spork (v1.1.0, RVM: ruby-1.9.3-p125 [rails3.2]) [gem]" level="application" />
@@ -56,14 +57,14 @@
     <orderEntry type="library" scope="PROVIDED" name="jquery-rails (v2.0.2, RVM: ruby-1.9.3-p125 [rails3.2]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="json (v1.7.3, RVM: ruby-1.9.3-p125 [rails3.2]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="launchy (v2.1.0, RVM: ruby-1.9.3-p125 [rails3.2]) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="libwebsocket (v0.1.3, RVM: ruby-1.9.3-p125 [rails3.2]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="libwebsocket (v0.1.5, RVM: ruby-1.9.3-p125 [rails3.2]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="listen (v0.4.6, RVM: ruby-1.9.3-p125 [rails3.2]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="mail (v2.4.4, RVM: ruby-1.9.3-p125 [rails3.2]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="mime-types (v1.19, RVM: ruby-1.9.3-p125 [rails3.2]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="multi_json (v1.3.6, RVM: ruby-1.9.3-p125 [rails3.2]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="mysql2 (v0.3.11, RVM: ruby-1.9.3-p125 [rails3.2]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="nokogiri (v1.5.5, RVM: ruby-1.9.3-p125 [rails3.2]) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="poltergeist (v0.6.0, RVM: ruby-1.9.3-p125 [rails3.2]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="poltergeist (v0.7.0, RVM: ruby-1.9.3-p125 [rails3.2]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="polyglot (v0.3.3, RVM: ruby-1.9.3-p125 [rails3.2]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rack (v1.4.1, RVM: ruby-1.9.3-p125 [rails3.2]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rack-cache (v1.2, RVM: ruby-1.9.3-p125 [rails3.2]) [gem]" level="application" />
@@ -84,7 +85,8 @@
     <orderEntry type="library" scope="PROVIDED" name="rubyzip (v0.9.9, RVM: ruby-1.9.3-p125 [rails3.2]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="sass (v3.1.20, RVM: ruby-1.9.3-p125 [rails3.2]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="sass-rails (v3.2.5, RVM: ruby-1.9.3-p125 [rails3.2]) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="selenium-webdriver (v2.24.0, RVM: ruby-1.9.3-p125 [rails3.2]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="selenium-webdriver (v2.25.0, RVM: ruby-1.9.3-p125 [rails3.2]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="simple_form (v2.0.2, RVM: ruby-1.9.3-p125 [rails3.2]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="simplecov (v0.6.4, RVM: ruby-1.9.3-p125 [rails3.2]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="simplecov-html (v0.5.3, RVM: ruby-1.9.3-p125 [rails3.2]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="spork (v1.0.0rc3, RVM: ruby-1.9.3-p125 [rails3.2]) [gem]" level="application" />
