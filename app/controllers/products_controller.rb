@@ -5,10 +5,11 @@ class ProductsController < ApplicationController
 
   def new
     @product = Product.new
-    ap @product.errors
+    @product.product_images.build
   end
 
   def create
+    ap params
     @product = Product.new(params[:product])
     if @product.valid?
       @product.save!
@@ -16,7 +17,6 @@ class ProductsController < ApplicationController
     else
       render :action => "new"
     end
-    #redirect_to :action => "show"
   end
 
   def show

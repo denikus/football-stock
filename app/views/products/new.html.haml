@@ -1,18 +1,20 @@
 %h1 Новый лот
 = simple_form_for @product, :html =>{:class =>"form-horizontal"} do |f|
+  %legend= "Информация о товаре"
   = f.input :name, :input_html => {:class => "span3"}, :placeholder =>"футбольный мяч", :label => "Название"
   - options = []
   - Product::STATUSES.each{|key, value| options << [value, key]}
   = f.input :status, :label => "Состояние", :input_html => {:class => "input-small"}, :include_blank => false, :collection => options
   = f.input :price, :wrapper => :append, :label => "Цена" do
-    = f.input_field :name, :class => "input-small", :placeholder =>"100"
+    = f.input_field :price, :class => "input-small", :placeholder =>"100"
     = content_tag :span, "грн", :class => "add-on"
-  -#%span.add-on= "грн"
   = f.input :description, :input_html => {:class => "span3", :rows =>"4"}, :label => "Описание"
+  = f.simple_fields_for :product_images do |p|
+    = p.input :image, :as => "file"
+  %legend= "Информация о продавце"
   = f.input :phone, :input_html => {:class => "span3"}, :label => "Телефон"
   .control-group
-    %span
-      = "Или"
+    %span= "Или"
   = f.input :email, :input_html => {:class => "span3"}, :label => "E-mail"
   .form-actions
-    = f.submit "Создать", :name => "create", :class =>"btn btn-success"
+    = f.button :submit, :value=>"Сохранить", :name => "create", :class =>"btn btn-success"
