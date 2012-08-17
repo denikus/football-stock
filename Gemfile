@@ -29,6 +29,10 @@ gem 'bootstrap-sass', '~> 2.0.4.0'
 gem 'simple_form'
 gem 'mini_magick'
 gem 'paperclip'
+gem 'devise'
+gem "omniauth-facebook"
+gem 'omniauth-google-oauth2'
+gem 'omniauth-vkontakte'
 
 group :test do
   gem 'simplecov', :require => false
