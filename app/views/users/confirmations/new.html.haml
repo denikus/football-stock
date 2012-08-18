@@ -1,4 +1,4 @@
-%h1 Resend confirmation instructions
+%h1 Еще раз отправить инструкции подтверждения учетной записи
 
 = simple_form_for(resource, :as => resource_name, :url => confirmation_path(resource_name), :html => { :method => :post }) do |f|
   = f.error_notification
@@ -7,6 +7,5 @@
     = f.input :email, :required => true
 
   .form-actions
-    = f.button :submit, "Resend confirmation instructions"
-
-= render "devise/shared/links"
+    = f.button :submit, "Отправить"
+= render "users/shared/links"

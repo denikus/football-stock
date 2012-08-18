@@ -18,16 +18,20 @@
               %b.caret
             %ul.dropdown-menu
               %li
-                %a{:href=>"#"}= "По e-mail"
+                = link_to "По e-mail", new_user_session_path
               %li.divider
-              %li
-                %a{:href=>"#"}= "Вконтакте"
-              %li
-                %a{:href=>"#"}= "Facebook"
-              %li
-                %a{:href=>"#"}= "Google"
+              -#%li
+              -#  %a{:href=>"#"}= "Вконтакте"
+              -#%li
+              -#  %a{:href=>"#"}= "Facebook"
+              -#%li
+              -#  %a{:href=>"#"}= "Google"
     #content
       .content_inner
+        - flash.each do |type, message|
+          .alert.fade.in{ "data-alert" => "alert", :class => twitterized_type(type) }
+            %a.close{href: "#", data: {dismiss: 'alert'}} &times;
+            %h4= message
         #columns
           #left
             .left_inner

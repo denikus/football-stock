@@ -1,10 +1,10 @@
-%h1 Sign up
+%h1 Регистрация
 = simple_form_for(resource, :as => resource_name, :url => registration_path(resource_name), :html => {:class => "simple_form form-horizontal"}) do |f|
   = f.error_notification
   .form-inputs
     = f.input :email, :required => true, :autofocus => true
-    = f.input :password, :required => true
-    = f.input :password_confirmation, :required => true
+    = f.input :password, :required => true, :label => "Пароль"
+    = f.input :password_confirmation, :required => true, :label => "Пароль еще раз"
   .form-actions
-    = f.button :submit, "Sign up"
-= render "devise/shared/links"
+    = f.button :submit, "Зарегистрироваться"
+= render "users/shared/links"
