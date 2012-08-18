@@ -23,23 +23,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bb4d4662-b020-46c1-9cc3-d53180cabded" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/users/shared/_links.html.haml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/users/shared/_links.haml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/helpers/application_helper.rb" afterPath="$PROJECT_DIR$/app/helpers/application_helper.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/user.rb" afterPath="$PROJECT_DIR$/app/models/user.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.haml" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.haml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/users/confirmations/new.html.haml" afterPath="$PROJECT_DIR$/app/views/users/confirmations/new.html.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/users/mailer/confirmation_instructions.html.haml" afterPath="$PROJECT_DIR$/app/views/users/mailer/confirmation_instructions.html.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/users/mailer/reset_password_instructions.html.haml" afterPath="$PROJECT_DIR$/app/views/users/mailer/reset_password_instructions.html.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/users/mailer/unlock_instructions.html.haml" afterPath="$PROJECT_DIR$/app/views/users/mailer/unlock_instructions.html.haml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/users/passwords/edit.html.haml" afterPath="$PROJECT_DIR$/app/views/users/passwords/edit.html.haml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/users/passwords/new.html.haml" afterPath="$PROJECT_DIR$/app/views/users/passwords/new.html.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/users/registrations/edit.html.haml" afterPath="$PROJECT_DIR$/app/views/users/registrations/edit.html.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/users/registrations/new.html.haml" afterPath="$PROJECT_DIR$/app/views/users/registrations/new.html.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/users/sessions/new.html.haml" afterPath="$PROJECT_DIR$/app/views/users/sessions/new.html.haml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/users/unlocks/new.html.haml" afterPath="$PROJECT_DIR$/app/views/users/unlocks/new.html.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/locales/simple_form.ru.yml" afterPath="$PROJECT_DIR$/config/locales/simple_form.ru.yml" />
     </list>
     <ignored path="stock.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -61,23 +49,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="application.html.haml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="application.html.haml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="42" selection-start="597" selection-end="774" vertical-scroll-proportion="0.6162625">
-              <folding>
-                <marker date="1345297460000" expanded="true" signature="203:774" placeholder="#header" />
-                <marker date="1345297460000" expanded="true" signature="274:774" placeholder="#menu" />
-                <marker date="1345297460000" expanded="true" signature="288:774" placeholder="%ul.nav.nav-pills" />
-                <marker date="1345297460000" expanded="true" signature="316:774" placeholder="%li.dropdown" />
-                <marker date="1345297460000" expanded="true" signature="458:774" placeholder="%ul.dropdown-menu" />
-                <marker date="1345297460000" expanded="true" signature="597:646" placeholder="%li" />
-                <marker date="1345297460000" expanded="true" signature="619:646" placeholder="%a{:href=&gt;&quot;#&quot;}= &quot;Вконтакте&quot;" />
-                <marker date="1345297460000" expanded="true" signature="663:711" placeholder="%li" />
-                <marker date="1345297460000" expanded="true" signature="685:711" placeholder="%a{:href=&gt;&quot;#&quot;}= &quot;Facebook&quot;" />
-                <marker date="1345297460000" expanded="true" signature="728:774" placeholder="%li" />
-                <marker date="1345297460000" expanded="true" signature="750:774" placeholder="%a{:href=&gt;&quot;#&quot;}= &quot;Google&quot;" />
-              </folding>
+            <state line="22" column="19" selection-start="602" selection-end="602" vertical-scroll-proportion="-14.08">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -94,16 +70,7 @@
       <file leaf-file-name="new.html.haml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/users/sessions/new.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="26" selection-start="321" selection-end="344" vertical-scroll-proportion="-3.2">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="new.html.haml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/products/new.html.haml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="42" selection-start="329" selection-end="352" vertical-scroll-proportion="-3.84">
+            <state line="1" column="136" selection-start="106" selection-end="145" vertical-scroll-proportion="-0.64">
               <folding />
             </state>
           </provider>
@@ -112,7 +79,7 @@
       <file leaf-file-name="new.html.haml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/users/unlocks/new.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="39" selection-start="234" selection-end="234" vertical-scroll-proportion="-2.56">
+            <state line="0" column="48" selection-start="48" selection-end="48" vertical-scroll-proportion="-0.0">
               <folding />
             </state>
           </provider>
@@ -127,10 +94,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="new.html.haml" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="new.html.haml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/users/passwords/new.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="39" selection-start="231" selection-end="231" vertical-scroll-proportion="-2.56">
+            <state line="0" column="17" selection-start="17" selection-end="17" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -139,7 +106,7 @@
       <file leaf-file-name="edit.html.haml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/users/passwords/edit.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="38" selection-start="263" selection-end="263" vertical-scroll-proportion="-2.56">
+            <state line="1" column="155" selection-start="180" selection-end="180" vertical-scroll-proportion="-0.64">
               <folding />
             </state>
           </provider>
@@ -148,7 +115,7 @@
       <file leaf-file-name="new.html.haml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/users/confirmations/new.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="35" selection-start="326" selection-end="326" vertical-scroll-proportion="-5.76">
+            <state line="2" column="160" selection-start="223" selection-end="223" vertical-scroll-proportion="-1.28">
               <folding />
             </state>
           </provider>
@@ -241,12 +208,8 @@
       <list>
         <option value="$PROJECT_DIR$/config/initializers/devise.rb" />
         <option value="$PROJECT_DIR$/app/views/users/shared/_links.haml" />
-        <option value="$PROJECT_DIR$/app/views/users/unlocks/new.html.haml" />
-        <option value="$PROJECT_DIR$/app/views/users/confirmations/new.html.haml" />
         <option value="$PROJECT_DIR$/app/views/users/mailer/reset_password_instructions.html.haml" />
         <option value="$PROJECT_DIR$/app/views/users/mailer/unlock_instructions.html.haml" />
-        <option value="$PROJECT_DIR$/app/views/users/passwords/edit.html.haml" />
-        <option value="$PROJECT_DIR$/app/views/users/passwords/new.html.haml" />
         <option value="$PROJECT_DIR$/app/helpers/application_helper.rb" />
         <option value="$PROJECT_DIR$/app/views/users/sessions/new.html.haml" />
         <option value="$PROJECT_DIR$/app/views/users/registrations/edit.html.haml" />
@@ -255,6 +218,10 @@
         <option value="$PROJECT_DIR$/app/models/user.rb" />
         <option value="$PROJECT_DIR$/app/views/users/mailer/confirmation_instructions.html.haml" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.haml" />
+        <option value="$PROJECT_DIR$/app/views/users/passwords/edit.html.haml" />
+        <option value="$PROJECT_DIR$/app/views/users/confirmations/new.html.haml" />
+        <option value="$PROJECT_DIR$/app/views/users/unlocks/new.html.haml" />
+        <option value="$PROJECT_DIR$/app/views/users/passwords/new.html.haml" />
       </list>
     </option>
   </component>
@@ -791,7 +758,7 @@
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32971016" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32971016" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2609375" sideWeight="0.6702899" order="0" side_tool="false" content_ui="combo" />
@@ -863,76 +830,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/views/products/new.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="42" selection-start="329" selection-end="352" vertical-scroll-proportion="-3.84">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/users/unlocks/new.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="39" selection-start="234" selection-end="234" vertical-scroll-proportion="-2.56">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/rexml/functions.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="300" column="19" selection-start="9021" selection-end="9021" vertical-scroll-proportion="0.33272892">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/users/registrations/edit.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="9" selection-start="965" selection-end="965" vertical-scroll-proportion="-9.6">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/users/passwords/new.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="39" selection-start="231" selection-end="231" vertical-scroll-proportion="-2.56">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/users/passwords/edit.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="38" selection-start="263" selection-end="263" vertical-scroll-proportion="-2.56">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/users/confirmations/new.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="35" selection-start="326" selection-end="326" vertical-scroll-proportion="-5.76">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/users/mailer/reset_password_instructions.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="105" selection-start="425" selection-end="425" vertical-scroll-proportion="-3.2">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/users/mailer/unlock_instructions.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="297" selection-end="297" vertical-scroll-proportion="-3.2">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/users/registrations/new.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="505" selection-end="505" vertical-scroll-proportion="-6.4">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/locales/simple_form.en.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="16" selection-start="35" selection-end="35" vertical-scroll-proportion="0.0">
@@ -961,6 +858,62 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="19" selection-start="602" selection-end="602" vertical-scroll-proportion="-14.08">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/products/new.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="42" selection-start="329" selection-end="352" vertical-scroll-proportion="0.0890538">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/users/sessions/new.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="136" selection-start="106" selection-end="145" vertical-scroll-proportion="-0.64">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/users/passwords/edit.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="155" selection-start="180" selection-end="180" vertical-scroll-proportion="-0.64">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/users/confirmations/new.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="160" selection-start="223" selection-end="223" vertical-scroll-proportion="-1.28">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/users/mailer/reset_password_instructions.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="105" selection-start="425" selection-end="425" vertical-scroll-proportion="-3.2">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/users/mailer/unlock_instructions.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="0" selection-start="297" selection-end="297" vertical-scroll-proportion="-3.2">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/users/registrations/new.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="0" selection-start="505" selection-end="505" vertical-scroll-proportion="-6.4">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/users/mailer/confirmation_instructions.html.haml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="0" selection-start="236" selection-end="236" vertical-scroll-proportion="-2.56">
@@ -968,22 +921,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.haml">
+    <entry file="file://$PROJECT_DIR$/app/views/users/unlocks/new.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="42" selection-start="597" selection-end="774" vertical-scroll-proportion="0.6162625">
-          <folding>
-            <marker date="1345297460000" expanded="true" signature="203:774" placeholder="#header" />
-            <marker date="1345297460000" expanded="true" signature="274:774" placeholder="#menu" />
-            <marker date="1345297460000" expanded="true" signature="288:774" placeholder="%ul.nav.nav-pills" />
-            <marker date="1345297460000" expanded="true" signature="316:774" placeholder="%li.dropdown" />
-            <marker date="1345297460000" expanded="true" signature="458:774" placeholder="%ul.dropdown-menu" />
-            <marker date="1345297460000" expanded="true" signature="597:646" placeholder="%li" />
-            <marker date="1345297460000" expanded="true" signature="619:646" placeholder="%a{:href=&gt;&quot;#&quot;}= &quot;Вконтакте&quot;" />
-            <marker date="1345297460000" expanded="true" signature="663:711" placeholder="%li" />
-            <marker date="1345297460000" expanded="true" signature="685:711" placeholder="%a{:href=&gt;&quot;#&quot;}= &quot;Facebook&quot;" />
-            <marker date="1345297460000" expanded="true" signature="728:774" placeholder="%li" />
-            <marker date="1345297460000" expanded="true" signature="750:774" placeholder="%a{:href=&gt;&quot;#&quot;}= &quot;Google&quot;" />
-          </folding>
+        <state line="0" column="48" selection-start="48" selection-end="48" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/users/registrations/edit.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="9" selection-start="965" selection-end="965" vertical-scroll-proportion="-9.6">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/users/passwords/new.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="17" selection-start="17" selection-end="17" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>

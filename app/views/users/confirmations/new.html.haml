@@ -1,6 +1,6 @@
 %h1 Еще раз отправить инструкции подтверждения учетной записи
 
-= simple_form_for(resource, :as => resource_name, :url => confirmation_path(resource_name), :html => { :method => :post }) do |f|
+= simple_form_for(resource, :as => resource_name, :url => confirmation_path(resource_name), :html => { :method => :post, :class => "simple_form form-horizontal" }) do |f|
   = f.error_notification
 
   .form-inputs
