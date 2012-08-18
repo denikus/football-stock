@@ -1,6 +1,6 @@
 class AddAttachmentProductImageToProducts < ActiveRecord::Migration
   def self.up
-    change_table :products do |t|
+    change_table :producs do |t|
       t.has_attached_file :product_image
     end
   end

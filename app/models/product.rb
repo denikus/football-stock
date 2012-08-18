@@ -9,5 +9,5 @@ class Product < ActiveRecord::Base
   STATUSES = {:used =>"БУ", :new =>"Новый"}
 
   has_many :product_images
-  accepts_nested_attributes_for :product_images
+  accepts_nested_attributes_for :product_images, :reject_if => lambda { |a| a[:image].blank? }
 end

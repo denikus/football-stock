@@ -8,24 +8,36 @@
     = csrf_meta_tags
   %body
     #header
-      %h1#logo
+      #logo
         %a{:href => "/"} Футбольный базар
+      #add_product_container
+        =link_to "Создать объявление", new_product_path, :class => "btn btn-warning"
       #menu
-        %ul.nav.nav-pills
-          %li.dropdown
-            %a.dropdown-toggle{"data-toggle" => "dropdown", :href => "#"}
-              Войти
-              %b.caret
-            %ul.dropdown-menu
-              %li
-                = link_to "По e-mail", new_user_session_path
-              -#%li.divider
-              -#%li
-              -#  %a{:href=>"#"}= "Вконтакте"
-              -#%li
-              -#  %a{:href=>"#"}= "Facebook"
-              -#%li
-              -#  %a{:href=>"#"}= "Google"
+        - if user_signed_in?
+          %ul.nav.nav-pills
+            %li.dropdown
+              %a.dropdown-toggle{"data-toggle" => "dropdown", :href => "#"}
+                Мои страницы
+                %b.caret
+              %ul.dropdown-menu
+                %li
+                  = link_to "Выйти", destroy_user_session_path, :method => "DELETE"
+        - else
+          %ul.nav.nav-pills
+            %li.dropdown
+              %a.dropdown-toggle{"data-toggle" => "dropdown", :href => "#"}
+                Войти
+                %b.caret
+              %ul.dropdown-menu
+                %li
+                  = link_to "По e-mail", new_user_session_path
+                -#%li.divider
+                -#%li
+                -#  %a{:href=>"#"}= "Вконтакте"
+                -#%li
+                -#  %a{:href=>"#"}= "Facebook"
+                -#%li
+                -#  %a{:href=>"#"}= "Google"
     #content
       .content_inner
         - flash.each do |type, message|

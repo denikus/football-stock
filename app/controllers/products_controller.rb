@@ -1,15 +1,17 @@
 class ProductsController < ApplicationController
+  before_filter :authenticate_user!, :except => ["index", "show"]
+
   def index
 
   end
 
   def new
     @product = Product.new
-    @product.product_images.build
+    3.times{@product.product_images.build}
+    #@product.product_images.build
   end
 
   def create
-    ap params
     @product = Product.new(params[:product])
     if @product.valid?
       @product.save!

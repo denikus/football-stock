@@ -22,12 +22,14 @@ body {
     width: 300px;
     //text-indent: -10000px;
     //overflow: hidden;
+    font-weight: bold;
     margin-top: -5px;
     float: left;
     a {
       display: block;
       font-size: 32px;
       color: #000;
+      text-decoration: none;
     }
   }
   #menu {
@@ -37,6 +39,11 @@ body {
       color: #000;
     }
 
+  }
+  #add_product_container {
+    float: left;
+    //margin-left: 2em;
+    margin-top: 5px;
   }
 }
 
@@ -51,7 +58,8 @@ h1 {
 
 a {
   color: #ee611c;
-  text-decoration: none; }
+  text-decoration: none;
+}
 
 #columns {
   overflow: hidden;

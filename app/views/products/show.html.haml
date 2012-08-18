@@ -3,8 +3,10 @@
 %div{:style =>"clear: both;margin-bottom: 5px;"}
 
 -#TODO Replace with photo
-%div{:style => "width: 200px; height: 200px; background-color: grey; float: left;margin: 0 10px 5px 0;"}
-
+- if @product.product_images.count == 0
+  %div{:style => "width: 200px; height: 160px; border:1px dashed grey; float: left;margin: 0 10px 5px 0; padding-top: 40px;text-align: center;"}= "Фото отсутствует"
+- else
+  =image_tag @product.product_images.first.image.url(:medium)
 %span.price.big_price= "#{@product.price} грн"
 
 %p
