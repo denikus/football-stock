@@ -1,4 +1,4 @@
 .items
   .list
     = render :partial =>"products/product_item", :collection => @products
-  = will_paginate @products, :renderer => BootstrapPagination::Rails
+= will_paginate @products, :renderer => BootstrapPagination::Rails
