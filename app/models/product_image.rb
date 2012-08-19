@@ -10,5 +10,6 @@ class ProductImage < ActiveRecord::Base
                     :styles => { :medium => "200x200>", :thumb => "100x100#" }
   validates_attachment_size :image, :less_than => 5.megabytes
 
-  belongs_to :product
+  belongs_to :product, :dependent =>:destroy
+
 end

@@ -33,6 +33,8 @@ gem 'devise'
 gem "omniauth-facebook"
 gem 'omniauth-google-oauth2'
 gem 'omniauth-vkontakte'
+gem 'will_paginate', '~> 3.0'
+gem 'will_paginate-bootstrap'
 
 group :test do
   gem 'simplecov', :require => false

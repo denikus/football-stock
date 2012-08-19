@@ -1,0 +1,11 @@
+%a.item{:href => "#{product_path(product_item.id)}"}
+  .job_icon
+    = image_tag product_item.product_images.first.image.url(:medium)
+    -#%img{:alt => "", :src => "http://shop.football.kharkov.ua/files/products/206_0.95x95.jpg?b72265546ac07e15453883ae228e01fb"}/
+  .meta
+    %span.city Харьков
+    .published= "#{time_ago_in_words(product_item.created_at)} назад"
+  .price= "#{product_item.price} грн"
+  .position
+    .title= "#{product_item.name}"
+    %span.badge= Product::STATUSES[product_item.status.to_sym]

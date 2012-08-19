@@ -180,12 +180,14 @@ label.mandatory {
     display: block;
     overflow: hidden;
     clear: left;
-    min-height: 4.5em;
+    min-height: 4.7em;
     color: #4c4c4c;
     .job_icon {
       float: left;
-      height: 6em;
-      line-height: 4.5em;
+      //height: 7em;
+      height: 100px;
+      //line-height: 4.5em;
+
       padding: 0 10px;
       img {
         vertical-align: middle;

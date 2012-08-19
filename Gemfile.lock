@@ -243,6 +243,9 @@ GEM
       multi_json (~> 1.3)
     warden (1.2.1)
       rack (>= 1.0)
+    will_paginate (3.0.3)
+    will_paginate-bootstrap (0.2.1)
+      will_paginate (>= 3.0.3)
     xpath (0.1.4)
       nokogiri (~> 1.3)
 
@@ -278,3 +281,5 @@ DEPENDENCIES
   simplecov
   spork (~> 1.0rc)
   uglifier (>= 1.0.3)
+  will_paginate (~> 3.0)
+  will_paginate-bootstrap
